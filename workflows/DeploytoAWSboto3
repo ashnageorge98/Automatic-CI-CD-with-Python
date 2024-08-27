@@ -1,0 +1,9 @@
+import boto3
+
+ecs_client = boto3.client('ecs')
+response = ecs_client.update_service(
+    cluster='my-cluster',
+    service='my-service',
+    forceNewDeployment=True
+)
+

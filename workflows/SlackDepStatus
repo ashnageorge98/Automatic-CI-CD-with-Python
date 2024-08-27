@@ -1,0 +1,9 @@
+import requests
+
+def send_slack_notification(message):
+    webhook_url = 'https://hooks.slack.com/services/your/webhook/url'
+    payload = {'text': message}
+    requests.post(webhook_url, json=payload)
+
+send_slack_notification("Build and deployment completed successfully!")
+
