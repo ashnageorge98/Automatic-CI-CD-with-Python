@@ -1,9 +1,8 @@
 boto3
 requests
 flask
-Flake8
+flake8
 pytest
-azure-mgmt
 ansible
 fabric
 python-terraform
@@ -17,3 +16,7 @@ hvac
 kubernetes
 pyhelm
 slack-sdk
+azure-mgmt-compute
+azure-mgmt-network
+azure-mgmt-storage
+azure-mgmt-resource
