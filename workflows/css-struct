@@ -1,0 +1,11 @@
+/my-python-app
+├── src/
+│   └── main.py
+├── tests/
+│   └── test_main.py
+├── .github/
+│   └── workflows/
+│       └── ci.yml
+├── Dockerfile
+├── requirements.txt
+└── README.md
