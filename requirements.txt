@@ -1,1 +1,6 @@
-echo "boto3" > requirements.txt
+boto3
+requests
+flask
+pylint
+Flake8
+Pylint
